@@ -1,0 +1,4 @@
+git log --stat					# gives statistics about which files have changed
+git diff versionid_file1 versionid_file2 	# to view diffrences between 2 versions of a file
+git clone url_of_repository_to_download		# downloads the repository to local drive
+git config --global color.ui auto		# to show changes in different colors 
