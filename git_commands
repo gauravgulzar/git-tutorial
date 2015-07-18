@@ -1,4 +1,14 @@
 git log --stat					# gives statistics about which files have changed
-git diff versionid_file1 versionid_file2 	# to view diffrences between 2 versions of a file
+git diff versionid_commit1 versionid_commit2 	# to view diffrences between 2 versions of a file
 git clone url_of_repository_to_download		# downloads the repository to local drive
 git config --global color.ui auto		# to show changes in different colors 
+git status					# to check the status for last commit. Shows untracked files.
+git init					# to make an existing working directory a git repository.
+git add file_name				# to add files to staging area before commit.
+git diff					# difference between working directory and staging area
+git diff --staged				# difference between staging area and latest commit
+git branch					# to view the branches
+git branch branch_name				# to create new branch
+git checkout branch_name			# to switch to different branch
+git merge branch1 branch2			# merges branch1 and branch2
+git show commit_id				# to see difference between this commit and its parent commit
