@@ -12,3 +12,7 @@ git branch branch_name				# to create new branch
 git checkout branch_name			# to switch to different branch
 git merge branch1 branch2			# merges branch1 and branch2
 git show commit_id				# to see difference between this commit and its parent commit
+
+git remote					# to view the remote repository on github
+git remote add remote-repo-name	url-of-remote-repo # to give a name to a repo created on github
+git push remote-repo-name branch-name		# to push changes from the given branch-name on local machine to previously created remote repository
